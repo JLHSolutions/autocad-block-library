@@ -1,0 +1,29 @@
+﻿{
+  "name": "D_UTILITIES_MANHOLE",
+  "displayName": "D UTILITIES MANHOLE",
+  "version": "1.0.0",
+  "type": "Dynamic",
+  "category": "Utilities",
+  "family": "Manholes",
+  "sourceDrawing": "",
+  "visibilityCount": 0,
+  "status": "Development",
+  "author": "Jason Hagen",
+  "sourceDwg": "D_UTILITIES_MANHOLE.dwg",
+  "previewImage": "preview.png",
+  "description": "Dynamic utility manhole block used for utility plan production.",
+  "visibilityStates": [],
+  "attributes": [],
+  "staticBlock": "S_UTILITIES_MANHOLE",
+  "dynamicSource": "",
+  "paths": {
+    "dev": "BLOCKS-Dev/dynamic/utilities/D_UTILITIES_MANHOLE",
+    "release": "BLOCKS-Release/dynamic/utilities/D_UTILITIES_MANHOLE"
+  },
+  "release": {
+    "currentZip": "D_UTILITIES_MANHOLE-v1.0.0.zip",
+    "gitTag": "D_UTILITIES_MANHOLE-v1.0.0",
+    "lastReleaseDate": "2026-06-17"
+  },
+  "notes": "TODO: Add block notes."
+}

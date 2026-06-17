@@ -1,0 +1,29 @@
+{
+  "name": "{{BLOCK_NAME}}",
+  "displayName": "{{DISPLAY_NAME}}",
+  "version": "{{VERSION}}",
+  "type": "{{BLOCK_TYPE}}",
+  "category": "{{CATEGORY}}",
+  "family": "{{FAMILY}}",
+  "sourceDrawing": "",
+  "visibilityCount": 0,
+  "status": "{{STATUS}}",
+  "author": "Jason Hagen",
+  "sourceDwg": "{{BLOCK_NAME}}.dwg",
+  "previewImage": "preview.png",
+  "description": "{{DESCRIPTION}}",
+  "visibilityStates": [],
+  "attributes": [],
+  "staticBlock": "{{STATIC_BLOCK_NAME}}",
+  "dynamicSource": "{{DYNAMIC_SOURCE_BLOCK}}",
+  "paths": {
+    "dev": "BLOCKS-Dev/{{BLOCK_TYPE_FOLDER}}/{{CATEGORY_FOLDER}}/{{BLOCK_NAME}}",
+    "release": "BLOCKS-Release/{{BLOCK_TYPE_FOLDER}}/{{CATEGORY_FOLDER}}/{{BLOCK_NAME}}"
+  },
+  "release": {
+    "currentZip": "{{BLOCK_NAME}}-v{{VERSION}}.zip",
+    "gitTag": "{{BLOCK_NAME}}-v{{VERSION}}",
+    "lastReleaseDate": "{{DATE}}"
+  },
+  "notes": "{{NOTES}}"
+}
