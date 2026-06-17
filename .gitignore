@@ -1,0 +1,63 @@
+# AutoCAD-BlockBox .gitignore
+# Purpose: Keep development files clean while allowing source DWG blocks,
+# package definitions, changelogs, documentation, and release metadata to be tracked.
+
+# -----------------------------------------------------------------------------
+# Windows / Dropbox / System Noise
+# -----------------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.temp
+~$*
+
+# -----------------------------------------------------------------------------
+# AutoCAD Temporary / Lock / Backup Files
+# -----------------------------------------------------------------------------
+*.bak
+*.sv$
+*.ac$
+*.dwl
+*.dwl2
+*.log
+*.err
+
+# -----------------------------------------------------------------------------
+# AutoCAD Plot / Publish Output
+# -----------------------------------------------------------------------------
+*.plt
+*.pc3.bak
+*.pdf.bak
+
+# -----------------------------------------------------------------------------
+# Local Scratch / Testing Folders
+# -----------------------------------------------------------------------------
+_temp/
+temp/
+scratch/
+testing/
+_local/
+
+# -----------------------------------------------------------------------------
+# Optional Export Output
+# Keep source DWGs tracked, but ignore temporary export work areas.
+# Remove these lines if you decide to version exported static block packages.
+# -----------------------------------------------------------------------------
+**/export/temp/
+**/export/_working/
+
+# -----------------------------------------------------------------------------
+# Release ZIP Handling
+# Current recommendation: DO NOT ignore release ZIPs by default.
+# BlockBox release ZIPs may be tracked or uploaded to GitHub Releases.
+# Uncomment these only if you want Git to ignore generated ZIP files.
+# -----------------------------------------------------------------------------
+# releases/current/*.zip
+# releases/archive/*.zip
+# *.zip
+
+# -----------------------------------------------------------------------------
+# Keep Folder Placeholders
+# -----------------------------------------------------------------------------
+!.gitkeep
